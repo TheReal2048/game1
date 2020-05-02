@@ -1,6 +1,6 @@
-Pantone version of [2048](http://gabrielecirulli.github.io/2048/) game
+Game #1
 ========================================================================
 
-Play here: http://git.io/pantone
+Play here: http://thereal2048.github.io/game1/
 
-[![2048 PANTONE](http://oi58.tinypic.com/1zwzv41.jpg)](http://git.io/pantone)
+[![GAME #1](http://oi58.tinypic.com/1zwzv41.jpg)](http://git.io/pantone)
