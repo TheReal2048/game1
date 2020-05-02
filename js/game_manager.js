@@ -167,7 +167,7 @@ GameManager.prototype.addRandomTile = function () {
     for (var i=0; i<this.score; i++) {
       Math.random();
     }
-    var value = Math.random() < 0.9 ? 2 : 4;
+    var value = Math.random() < 0.9 ? 2 : Math.random() < 0.8 ? 4 : Math.random() < 0.7 ? 8 : 16;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
@@ -306,7 +306,7 @@ GameManager.prototype.move = function (direction) {
           self.score += prezzo(merged.value);
           if (merged.value > self.level) self.level = merged.value;
 
-          // The mighty 2048 tile
+          // The mighty Pinky
           if (merged.value === 2048) self.won = true;
         } else {
           
